@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import Selectcity from "../src/Navbar/Selectcity";
-import image from "../src/image/onedaybazaar-logo1.png";
+// import Selectcity from "../src/Navbar/Selectcity";
+import image from "../src/image/logo.png";
 import FormatAlignRightIcon from "@material-ui/icons/FormatAlignRight";
-import { red } from "@material-ui/core/colors";
 
 const Menu = () => {
   const [show, handleShow] = useState(false);
@@ -88,13 +87,15 @@ const Menu = () => {
                       className="dropdown-item courses_dropdown"
                       to="/home"
                     >
-                      Mathematics
+                      NTA UGC NET
                     </NavLink>
+                    <div className="dropdown-divider"></div>
                     <NavLink exact className="dropdown-item" to="/home">
-                      Science
+                      +2 COURSE
                     </NavLink>
+                    <div className="dropdown-divider"></div>
                     <NavLink exact className="dropdown-item" to="/home">
-                      English
+                      CTET
                     </NavLink>
                     <div className="dropdown-divider"></div>
                     <NavLink exact className="dropdown-item" to="/home">
@@ -102,8 +103,16 @@ const Menu = () => {
                     </NavLink>
                   </div>
                 </li>
-                <li className="nav-item dropdown">
-                  <Selectcity />
+                <li className="nav-item dropdown"></li>
+                <li className="nav-item">
+                  <NavLink
+                    exact
+                    activeClassName="active_class"
+                    className="nav-link"
+                    to="/SignupstudentMain"
+                  >
+                    Blog
+                  </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink
@@ -112,7 +121,47 @@ const Menu = () => {
                     className="nav-link"
                     to="/SignupstudentMain"
                   >
-                    Request a Tutor
+                    Testimonials
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    exact
+                    activeClassName="active_class"
+                    className="nav-link"
+                    to="/SignupstudentMain"
+                  >
+                    Faculty
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    exact
+                    activeClassName="active_class"
+                    className="nav-link"
+                    to="/SignupstudentMain"
+                  >
+                    FAQ's
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    exact
+                    activeClassName="active_class"
+                    className="nav-link"
+                    to="/SignupstudentMain"
+                  >
+                    Enquiry
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    exact
+                    activeClassName="active_class"
+                    className="nav-link"
+                    to="/SignupstudentMain"
+                  >
+                    Feedback
                   </NavLink>
                 </li>
               </ul>
@@ -141,15 +190,11 @@ const Menu = () => {
                     <NavLink
                       className="dropdown-item signout_btn_div_Navlink"
                       to="/MainForm"
-                    >
-                      As a Tutor
-                    </NavLink>
+                    ></NavLink>
                     <NavLink
                       className="dropdown-item signout_btn_div_Navlink"
                       to="/SignupstudentMain"
-                    >
-                      As a Student
-                    </NavLink>
+                    ></NavLink>
                   </div>
                 </div>
               </div>

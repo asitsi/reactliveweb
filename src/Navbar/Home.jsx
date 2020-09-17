@@ -4,10 +4,15 @@ import web1 from "../image/meeting-3.png";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import Trips from "../Content/Trips";
 import PopularCategory from "../Content/PopularCategory";
-import RecentCoursesCategory from "../Content/RecentCoursesCategory";
-import Banner from "../Content/Banner";
+import Container from "../Content/Container";
+import Consultancy from "../Content/Consultancy";
+import Quiz from "../Content/Quiz/Quiz.js";
+// import Blognotification from "../Content/Blognotification";
+// import Polloftheday from "../Content/Polloftheday";
+// import RecentCoursesCategory from "../Content/RecentCoursesCategory";
+// import Banner from "../Content/Banner";
 import Testimonial from "../Content/Testimonial";
-import RequestSubmit from "../Content/RequestSubmit";
+// import RequestSubmit from "../Content/RequestSubmit";
 import NewsLater from "../Content/NewsLater";
 import Footer from "../Content/Footer";
 
@@ -41,10 +46,15 @@ const Home = () => {
 
       <Trips />
       <PopularCategory />
-      <RecentCoursesCategory />
-      <Banner />
+      <Container />
+      <Consultancy />
+      <Quiz />
+      {/* <Blognotification />
+      <Polloftheday /> */}
+      {/* <RecentCoursesCategory /> */}
+      {/* <Banner /> */}
       <Testimonial />
-      <RequestSubmit />
+      {/* <RequestSubmit /> */}
       <NewsLater />
       <Footer />
     </>

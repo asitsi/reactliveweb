@@ -1,8 +1,6 @@
 // PersonalDetails.jsx
 import React, { Component } from "react";
 import { Form, Button } from "semantic-ui-react";
-import { throws } from "assert";
-import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 
 class PersonalDetails extends Component {
   saveAndContinue = (e) => {

@@ -1,5 +1,3 @@
-import React from "react";
-
 import web1 from "../image/3784896.jpg";
 import web2 from "../image/2331432.jpg";
 import web3 from "../image/2330789.jpg";
@@ -12,8 +10,6 @@ import avtar from "../image/15569.jpg";
 import avtar2 from "../image/6547.jpg";
 import avtar4 from "../image/20859.jpg";
 import avtar3 from "../image/631.jpg";
-
-import EventOutlinedIcon from "@material-ui/icons/EventOutlined";
 
 const RecentCourses = [
   {

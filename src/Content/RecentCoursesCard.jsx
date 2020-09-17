@@ -1,5 +1,4 @@
 import React from "react";
-import web1 from "../image/meeting-3.png";
 import { NavLink } from "react-router-dom";
 import RemoveRedEyeOutlinedIcon from "@material-ui/icons/RemoveRedEyeOutlined";
 import AccessTimeOutlinedIcon from "@material-ui/icons/AccessTimeOutlined";
@@ -13,7 +12,7 @@ const RecentCoursesCard = (props) => {
         <div className="RecentCoursesCard_bg">
           <img
             src={props.img}
-            alt=""
+            alt="img"
             className="RecentCoursesCategory_card_image img_fluid"
           />
           <div>
@@ -40,6 +39,7 @@ const RecentCoursesCard = (props) => {
                 <img
                   src={props.img2}
                   className="RecentCoursesCategory_Avatar_image img_fluid"
+                  alt="img"
                 />
                 <span className="RecentCoursesCategory_info_text">
                   {props.name}

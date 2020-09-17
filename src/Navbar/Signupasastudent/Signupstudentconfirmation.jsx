@@ -1,7 +1,6 @@
 // Confirmation.jsx
 import React, { Component } from "react";
 import { Button, List } from "semantic-ui-react";
-import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 
 class Signupstudentconfirmation extends Component {
   saveAndContinue = (e) => {

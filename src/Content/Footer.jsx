@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../image/onedaybazaar-logo1.png";
+import Logo from "../image/logo.png";
 import ShopOutlinedIcon from "@material-ui/icons/ShopOutlined";
 import AppleIcon from "@material-ui/icons/Apple";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -22,11 +22,9 @@ const Footer = () => {
                 <p>4967 Sardis Sta, Victoria 8007, Montreal.</p>
               </NavLink>
               <NavLink to="/" className="Footer_bg_navlink">
-                {" "}
                 <p>+1 246-345-0695</p>
               </NavLink>
               <NavLink to="/" className="Footer_bg_navlink">
-                {" "}
                 <p>info@learnup.com</p>
               </NavLink>
             </div>
@@ -41,26 +39,21 @@ const Footer = () => {
                     <p>Mumbai</p>
                   </NavLink>
                   <NavLink to="/" className="Footer_bg_navlink">
-                    {" "}
                     <p>Kolkata</p>
                   </NavLink>
                   <NavLink to="/" className="Footer_bg_navlink">
-                    {" "}
                     <p>Banglor</p>
                   </NavLink>
                   <NavLink to="/" className="Footer_bg_navlink">
-                    {" "}
                     <p>Bhopal</p>
                   </NavLink>
                 </div>
                 <div className="col-lg-4 col-12">
                   <h5>Top Subjects</h5>
                   <NavLink to="/" className="Footer_bg_navlink">
-                    {" "}
                     <p>Math Tutors</p>
                   </NavLink>
                   <NavLink to="/" className="Footer_bg_navlink">
-                    {" "}
                     <p>English Tutors</p>
                   </NavLink>
                   <NavLink to="/" className="Footer_bg_navlink">
@@ -76,23 +69,19 @@ const Footer = () => {
                 <div className="col-lg-4 col-12">
                   <h5>Work With Us</h5>
                   <NavLink to="/" className="Footer_bg_navlink">
-                    {" "}
-                    <p>Tuition Jobs</p>
-                  </NavLink>
-                  <NavLink to="/" className="Footer_bg_navlink">
-                    {" "}
-                    <p>How It Works</p>
-                  </NavLink>
-                  <NavLink to="/" className="Footer_bg_navlink">
-                    {" "}
                     <p>Testimonials</p>
                   </NavLink>
                   <NavLink to="/" className="Footer_bg_navlink">
-                    {" "}
-                    <p>Institute Sign Up</p>
+                    <p>Faculty</p>
                   </NavLink>
                   <NavLink to="/" className="Footer_bg_navlink">
-                    <p>Help Center</p>
+                    <p>FAQ's</p>
+                  </NavLink>
+                  <NavLink to="/" className="Footer_bg_navlink">
+                    <p>Enquiry</p>
+                  </NavLink>
+                  <NavLink to="/" className="Footer_bg_navlink">
+                    <p>Suggestion</p>
                   </NavLink>
                 </div>
               </div>
@@ -124,15 +113,12 @@ const Footer = () => {
             <FacebookIcon className="Footer_bottom_icon" />
           </NavLink>
           <NavLink to="/">
-            {" "}
             <TwitterIcon className="Footer_bottom_icon" />
           </NavLink>
           <NavLink to="/">
-            {" "}
             <InstagramIcon className="Footer_bottom_icon" />
           </NavLink>
           <NavLink to="/">
-            {" "}
             <LinkedInIcon className="Footer_bottom_icon" />
           </NavLink>
         </div>

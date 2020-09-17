@@ -1,7 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import Dropdown from "./Dropdown";
-import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import web from "../image/home_tutor.png";
 
 const RequestSubmit = () => {
